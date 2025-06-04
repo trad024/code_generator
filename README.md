@@ -70,3 +70,12 @@ The project uses LangChain to chain prompts for code and test generation, and it
      python code_generator.py --task "sort a list of numbers" --language python
      ```
    - Expected output includes debug prints (e.g., `API Key: <your_key>`) and generated code/tests.
+
+6. **Web Interface (`code_generator_ui.py`)**
+- Run the Streamlit app:
+  ```bash
+  streamlit run code_generator_ui.py
+  ```
+- Open `http://localhost:8501` in a browser.
+- Select a language (e.g., Python), enter a task (e.g., "sort a list of numbers"), and click "Generate Code."
+- The interface displays the generated code and tests with syntax highlighting.
