@@ -74,7 +74,7 @@ The project uses LangChain to chain prompts for code and test generation, and it
 6. **Web Interface (`code_generator_ui.py`)**
 - Run the Streamlit app:
   ```bash
-  streamlit run code_generator_ui.py
+ python -m streamlit run code_generator_ui.py
   ```
 - Open `http://localhost:8501` in a browser.
 - Select a language (e.g., Python), enter a task (e.g., "sort a list of numbers"), and click "Generate Code."
