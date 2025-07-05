@@ -14,16 +14,8 @@ The project uses LangChain to chain prompts for code and test generation, and it
 - Error handling for invalid inputs and API issues.
 - Debug logging to verify environment setup (e.g., API key loading).
 
-## Requirements
-- **Python**: Version 3.8 or higher (download from [python.org](https://www.python.org/downloads/)).
-- **Google API Key**: Obtain a key for the Google Generative AI API from [Google Cloud Console](https://console.cloud.google.com/).
-- **Dependencies**:
-  - `google-generativeai==0.7.2`
-  - `langchain==0.3.0`
-  - `langchain-google-genai==1.0.10`
-  - `python-dotenv`
-  - `streamlit==1.38.0`
-- **Operating System**: Windows, macOS, or Linux (instructions assume Windows).
+**Google API Key**: Obtain a key for the Google Generative AI API from [Google Cloud Console](https://console.cloud.google.com/).
+
 
 ## Setup Instructions
 1. **Clone or Download the Project**:
